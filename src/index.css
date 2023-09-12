@@ -1,13 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Dancing+Script&family=Montserrat&family=Manrope&family=Roboto&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family:  'Manrope';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5rem;
+  letter-spacing: .85px;
+
+}
+*{
+  box-sizing: border-box;
+}
+h2,h1,h3{
+  color: #494964;
+}
+p, span,ul,li{
+  color: #626275;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App{
+  text-align: center;
+  background: rgb(255,235,243);
+  background: rgb(255,243,248);
+  background: linear-gradient(321deg, rgba(255,243,248,1) 14%, rgba(255,255,255,1) 50%, rgba(243,249,255,1) 86%);
+}
+.pages{
+  margin: 0 .5rem .5rem .5rem;
+  padding: .5rem 7rem .5rem 7rem;
+  height: 98vh;
+}
+.homePage{
+  display: grid;
+  grid-template-columns: 1fr 2.2fr 1fr;
+  overflow-y:hidden;
+}
+.header{
+  grid-column: span 3;
+}
+
+/* .logo h2::after{
+    content: "";
+    position: relative;
+    display: block;
+    width: 4rem;
+    height: 2px;
+    background: linear-gradient(to right,rgb(28, 66, 110),#5959ac);
+    bottom: 0;
+    margin-top: 2rem;
+} */
+
+
+
+.project-stats ul{
+  text-align: start;
+  padding: 0 1rem ;
+}
+.project-stats li{
+  list-style: none;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+.project-stats .btn{
+  font-size: .7rem;
+  font-weight: 600;
+  min-width: 2.5rem;
+  height: 3rem;
+}
+.project-stats h2::after{
+  content: "";
+  position: relative;
+  display: block;
+  text-align: center;
+  width: 4rem;
+  height: 2px;
+  background: linear-gradient(to right,rgb(28, 66, 110),#5959ac);
+  bottom: 0;
+  margin : 1rem auto;
+}
+
+
+
+.scroll-div::-webkit-scrollbar {
+  display: none;
+}
+
+
+.add-project-section{
+  display: flex;
+  gap: 3rem;
+  padding: 0 1.7rem;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.add-project-section p{
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: start;
+  line-height: 2rem;
+  flex: 1;
+}
+
+.bookmark li{
+  text-align: start;
+}
+.bookmark  h2::after,.collaborate h2::after{
+  content: "";
+  position: relative;
+  display: block;
+  text-align: center;
+  width: 4rem;
+  height: 2px;
+  background: linear-gradient(to right,rgb(28, 66, 110),#5959ac);
+  bottom: 0;
+  margin : 1rem auto;
+}
+.collaborate .btns{
+  margin-top: 1.8rem 0 .5rem 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+

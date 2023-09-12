@@ -1,0 +1,30 @@
+.list{
+    list-style: none;
+    padding: 0 .5rem;
+  }
+  .list li{
+    text-align: start;
+    font-size: 1rem;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #BEADFA;
+    border-radius: 5px;
+    gap: 1.5rem;
+  }
+  .list p{
+    margin: .2rem;
+  }
+  .list li:hover{
+    background-color: #f3f0fc;
+    
+  }
+  .list h3{
+    margin: .2rem;
+    font-size: 1.1rem;
+  }
+  .btns{
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-between;
+  }
+  

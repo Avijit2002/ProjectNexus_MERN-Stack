@@ -1,0 +1,75 @@
+.pages{
+    margin: 0 .5rem .5rem .5rem;
+    padding: .5rem 7rem .5rem 7rem;
+  }
+
+.header{
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(2, 1, 59, 0.7)), url('../tint-pic.png');
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(6, 5, 70, 0.7)), url('../tint-pic.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* clip-path: polygon(100% 0, 100% 76%, 35% 100%, 0 87%, 0 0); */
+    height: 65vh;
+    border-radius: 10px;
+}
+.header h1{
+    font-size: 3.5rem;
+    color: rgb(243, 230, 255);
+    text-shadow: 1px 1px 1px gray;
+}
+.header h3{
+    font-size: 2.5rem;
+    color: rgb(243, 230, 255);
+    margin-top: 1.1rem;
+    margin-bottom: 4rem;
+}
+.title{
+    position: relative;
+    top: 20%;
+    display: grid;
+}
+.btn{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #BEADFA;
+    font-weight: 700;
+    border: 2px solid #BEADFA;
+    border-radius: 10px;
+    padding: 1rem 2rem;
+    display: inline-block;
+    margin: .4rem;
+    transition: .2s;
+  }
+  .btn:hover{
+    color: white;
+    background-color: #BEADFA;
+  }
+  .projectList{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding: 0 2rem;
+  }
+  .project{
+    text-align: center;
+    margin: 3rem auto;
+    border: 1px solid #BEADFA;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #BEADFA;
+  }
+  .heading{
+    margin-top: 3rem;
+  }
+  .heading::after{
+    content: "";
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 6rem;
+    height: 3px;
+    background: linear-gradient(to right,rgb(28, 66, 110),#5959ac);
+    bottom: 0;
+    margin : 2rem auto 0rem auto;
+  }

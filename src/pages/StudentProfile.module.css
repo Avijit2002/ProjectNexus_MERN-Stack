@@ -1,0 +1,42 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    margin-top: 1.8rem;
+    height: 83vh;
+}
+.colab{
+  height: 170px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.colab p{
+    font-style: italic;
+}
+.main h2{
+    color: #494964;
+
+}
+.main h2::after{
+    content: "";
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 4rem;
+    height: 3px;
+    background: linear-gradient(to right,rgb(28, 66, 110),#5959ac);
+    bottom: 0;
+    margin : 1rem auto;
+  }
+  .firstcol{
+    margin-top: 1rem;
+    text-align: start;
+    padding-left: 1.5rem;
+  }
+  .firstcol p{
+    margin: .5rem;
+  }
+  .main img{
+    border-radius: 9999px;
+  }

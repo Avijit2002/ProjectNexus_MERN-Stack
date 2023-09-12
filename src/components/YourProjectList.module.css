@@ -1,0 +1,36 @@
+.list{
+    list-style: none;
+    padding: 0 .5rem;
+  }
+  .list li{
+    text-align: start;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    column-gap: .5rem;
+    font-size: 1rem;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #BEADFA;
+    border-radius: 5px;
+    gap: 1.5rem;
+    border: 1px solid #ded7f9;
+    margin-top: 1rem;
+    box-shadow: 1px 1px 10px #e1d9fb;
+  }
+  .list p{
+    margin: .2rem;
+  }
+  .list li:hover{
+    background-color: #f3f0fc;
+    
+  }
+  .list h3{
+    margin: .2rem;
+    font-size: 1.2rem;
+  }
+  .btns{
+    grid-column: span 2;
+    display: flex;
+    justify-content: space-between;
+  }
+  

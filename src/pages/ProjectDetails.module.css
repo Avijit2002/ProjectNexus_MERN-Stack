@@ -1,0 +1,50 @@
+.main{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    margin-top: 1.8rem;
+    height: 83vh;
+}
+.main h2::after{
+    content: "";
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 4rem;
+    height: 3px;
+    background: linear-gradient(to right,rgb(28, 66, 110),#5959ac);
+    bottom: 0;
+    margin : 1rem auto;
+  }
+.main img{
+    margin: .6rem auto;
+    text-align: center;
+    height: 24rem;
+}
+.project{
+    padding: 0rem 5rem;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+}
+.heade{
+    text-align: left;
+}
+.head{
+    text-align: right;
+}
+.project p{
+    text-align: justify;
+}
+.author ul{
+    margin-top: 2rem;
+    text-align: left;
+}
+.author li{
+    list-style: none;
+}
+.author span{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.1rem;
+}

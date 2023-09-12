@@ -1,0 +1,247 @@
+{
+    "post": [
+        {
+            "id": 1,
+            "title": "Automated Greenhouse Monitoring System",
+            "description": "A system to monitor and control environmental conditions in a greenhouse.",
+            "author": "John Doe",
+            "university": "Techno International New Town",
+            "category": "IoT",
+            "tags": [
+                "agriculture",
+                "sensors",
+                "automation"
+            ],
+            "likes": 56,
+            "comments": [
+                {
+                    "id": 1,
+                    "author": "Jane Smith",
+                    "comment": "This is a fantastic project! Well done!"
+                },
+                {
+                    "id": 2,
+                    "author": "Mike Johnson",
+                    "comment": "I'm interested in learning more about the sensors used."
+                }
+            ],
+            "image": "https://sperotec.com/wp-content/uploads/2021/04/sensors-monitoring.png",
+            "uploadDate": "2023-09-01",
+            "isCompleted": true,
+            "isOpenForCollaboration": false
+        },
+        {
+            "id": 2,
+            "title": "E-commerce Website Redesign",
+            "description": "Redesigning the user interface and adding new features to an e-commerce website.",
+            "author": "Jane Smith",
+            "university": "ABC College",
+            "category": "Web Development",
+            "tags": [
+                "UI/UX",
+                "e-commerce",
+                "frontend"
+            ],
+            "likes": 72,
+            "comments": [
+                {
+                    "id": 1,
+                    "author": "John Doe",
+                    "comment": "The new design looks amazing! Great job!"
+                }
+            ],
+            "image": "https://www.webdesignlane.com/assets/images/banner-img-ecommerce-sloution.png",
+            "uploadDate": "2023-08-25",
+            "isCompleted": true,
+            "isOpenForCollaboration": true
+        },
+        {
+            "id": 3,
+            "title": "Renewable Energy Integration in Smart Grids",
+            "description": "Research on integrating renewable energy sources into existing smart grid systems.",
+            "author": "Mike Johnson",
+            "university": "DEF Institute of Technology",
+            "category": "Energy",
+            "tags": [
+                "smart grids",
+                "renewable energy",
+                "research"
+            ],
+            "likes": 34,
+            "comments": [],
+            "image": "https://innovationatwork.ieee.org/wp-content/uploads/2019/09/bigstock-134077766_1024X684.png",
+            "uploadDate": "2023-08-30",
+            "isCompleted": false,
+            "isOpenForCollaboration": true
+        },
+        {
+            "id": 4,
+            "title": "AI-Powered Healthcare Chatbot",
+            "description": "Developing a chatbot to assist healthcare professionals in providing information to patients.",
+            "author": "Sara Johnson",
+            "university": "PQR Medical University",
+            "category": "Artificial Intelligence",
+            "tags": [
+                "healthcare",
+                "chatbot",
+                "AI"
+            ],
+            "likes": 45,
+            "comments": [
+                {
+                    "id": 1,
+                    "author": "David Brown",
+                    "comment": "This could greatly improve patient-doctor communication!"
+                }
+            ],
+            "image": "https://acropolium.com/img/articles/chatbots-in-healthcare/img01.jpg",
+            "uploadDate": "2023-09-05",
+            "isCompleted": true,
+            "isOpenForCollaboration": false
+        },
+        {
+            "id": 5,
+            "title": "Solar-Powered Water Purification System",
+            "description": "Creating a sustainable water purification system powered by solar energy.",
+            "author": "Emily Green",
+            "university": "UVW Environmental Institute",
+            "category": "Environmental Engineering",
+            "tags": [
+                "solar energy",
+                "water purification",
+                "sustainability"
+            ],
+            "likes": 62,
+            "comments": [
+                {
+                    "id": 1,
+                    "author": "John Doe",
+                    "comment": "This is an excellent initiative towards clean water access!"
+                }
+            ],
+            "image": "https://i0.wp.com/www.cleantechloops.com/wp-content/uploads/2021/03/solar-water-purifier.jpg",
+            "uploadDate": "2023-09-02",
+            "isCompleted": true,
+            "isOpenForCollaboration": true
+        },
+        {
+            "id": 6,
+            "title": "Mobile App for Language Learning",
+            "description": "Designing an interactive mobile app to facilitate language learning.",
+            "author": "Maria Rodriguez",
+            "university": "LMN Language Institute",
+            "category": "Mobile App Development",
+            "tags": [
+                "language learning",
+                "mobile app",
+                "education"
+            ],
+            "likes": 78,
+            "comments": [
+                {
+                    "id": 1,
+                    "author": "James Smith",
+                    "comment": "I'd love to try this app! When will it be available?"
+                }
+            ],
+            "image": "language_app.jpg",
+            "uploadDate": "2023-08-27",
+            "isCompleted": true,
+            "isOpenForCollaboration": false
+        },
+        {
+            "id": 7,
+            "title": "Automated Inventory Management System",
+            "description": "Developing a system to automate inventory tracking and management in retail stores.",
+            "author": "Alex Davis",
+            "university": "XYZ Tech Institute",
+            "category": "Software Engineering",
+            "tags": [
+                "inventory management",
+                "automation",
+                "retail"
+            ],
+            "likes": 53,
+            "comments": [
+                {
+                    "id": 1,
+                    "author": "Sophia Brown",
+                    "comment": "This could revolutionize how stores handle their inventory!"
+                }
+            ],
+            "image": "inventory_management.jpg",
+            "uploadDate": "2023-09-03",
+            "isCompleted": false,
+            "isOpenForCollaboration": true
+        },
+        {
+            "id": 8,
+            "title": "Green Energy Solutions for Urban Areas",
+            "description": "Researching and proposing sustainable energy solutions for densely populated urban areas.",
+            "author": "Daniel Lee",
+            "university": "EFG Urban Planning Institute",
+            "category": "Urban Planning",
+            "tags": [
+                "sustainable energy",
+                "urban planning",
+                "research"
+            ],
+            "likes": 40,
+            "comments": [],
+            "image": "green_energy.jpg",
+            "uploadDate": "2023-08-29",
+            "isCompleted": false,
+            "isOpenForCollaboration": true
+        },
+        {
+            "id": 9,
+            "title": "AI-Based Traffic Management System",
+            "description": "Developing an intelligent system to optimize traffic flow in busy urban areas.",
+            "author": "Jessica Parker",
+            "university": "HIJ Traffic Institute",
+            "category": "Artificial Intelligence",
+            "tags": [
+                "traffic management",
+                "AI",
+                "urban planning"
+            ],
+            "likes": 68,
+            "comments": [
+                {
+                    "id": 1,
+                    "author": "Michael Taylor",
+                    "comment": "This could significantly reduce traffic congestion!"
+                }
+            ],
+            "image": "traffic_management.jpg",
+            "uploadDate": "2023-09-04",
+            "isCompleted": true,
+            "isOpenForCollaboration": false
+        },
+        {
+            "id": 10,
+            "title": "Interactive Science Education Platform",
+            "description": "Creating an online platform to engage students in interactive science learning experiences.",
+            "author": "Sophia Johnson",
+            "university": "ABC Education Foundation",
+            "category": "Education Technology",
+            "tags": [
+                "science education",
+                "e-learning",
+                "interactive platform"
+            ],
+            "likes": 57,
+            "comments": [
+                {
+                    "id": 1,
+                    "author": "David Green",
+                    "comment": "This could make science learning so much more fun!"
+                }
+            ],
+            "image": "science_education.jpg",
+            "uploadDate": "2023-09-06",
+            "isCompleted": true,
+            "isOpenForCollaboration": false
+        }
+    ]
+}

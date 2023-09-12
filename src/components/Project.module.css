@@ -1,0 +1,47 @@
+.project{
+    padding: .8rem 2rem;
+    text-align: start;
+    gap: 1rem;
+  }
+  .project header{
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      gap: .7rem;
+      margin: 0;
+      align-items: center;
+      padding-top: .5rem;
+  }
+  .project hr{
+    margin: 1rem 0;
+    width: 100%;
+    color: #BEADFA;
+  }
+  .project span{
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 500;
+  }
+  .project h2{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #494964;
+  }
+  .project p{
+    margin: 0;
+      font-size: 1.05rem;
+      color: #626275;
+  }
+  .main{
+    display: grid;
+    gap: 1.5rem;
+  }
+  .project img{
+    margin: .6rem auto;
+    text-align: center;
+    height: 22rem;
+  }
+ .btnBox{
+    display: flex;
+    justify-content: space-between;
+  }
