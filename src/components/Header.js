@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import Button from "./Button";
 import styles from "./Header.module.css"
 import Search from "./Search";
 import SearchResult from "./SearchResult"
