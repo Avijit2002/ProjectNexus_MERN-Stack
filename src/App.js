@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ProjectDetails from './pages/ProjectDetails';
 import StudentProfile from './pages/StudentProfile';
 import CollegeProfile from './pages/CollegeProfile';
+import AdminPortal from './pages/AdminPortal';
 function App() {
 
   const [post,setPost] = useState([]);
@@ -33,6 +34,7 @@ function App() {
           <Route path="/project-details/:id" element={<ProjectDetails post={post}/>} />
           <Route path="/student-profile" element={<StudentProfile />} />
           <Route path="/college-profile" element={<CollegeProfile post={post}/>} />
+          <Route path="/admin-portal" element={<AdminPortal/>} />
         </Routes>
       </BrowserRouter>
       

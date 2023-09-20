@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import styles from "./Header.module.css"
 import Search from "./Search";
 import SearchResult from "./SearchResult"
-
+import { Link } from "react-router-dom";
 export default function Header({post}){
 
   const [query,setQuery] = useState(null);
@@ -51,7 +51,7 @@ export default function Header({post}){
           query={query}
           searchBy={searchBy}/>
         {matchingProjects.length!==0?<SearchResult result={matchingProjects} searchBy={searchBy} />:<></>}
-        <a href="">Log Out</a>
+        <Link to="/admin-portal">Log Out</Link>
       </header>
     );
 }
