@@ -1,18 +1,19 @@
 import Button from "./Button"
 import styles from './Project.module.css'
 import { Link } from "react-router-dom"
+import Button2 from "./Button2"
 export default function Project({post}){
     //console.log(post)
     return(
         <div className={styles.project}>
             <header>
                 <h2>{post.title}</h2>
-                <span>Bookmark</span>
+                <div className={styles.bookmark}><Button2>Bookmark</Button2></div>
                 <div>
-                    <p>Authors - {post.author}</p>
-                    <p>College: <Link to='/college-profile' >{post.university}</Link></p>
+                    <p><span>Authors:</span> {post.author}</p>
+                    <p><span>College: </span><Link to='/college-profile' >{post.university}</Link></p>
                 </div>
-                <span>Domain: {post.category}</span>
+                <div className={styles.bookmark}><span className={styles.domain}><span>Domain: </span>{post.category}</span></div>
             </header>
             <hr />
             <div className={styles.main}>
