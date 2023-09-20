@@ -15,7 +15,7 @@ body {
 h2,h1,h3{
   color: #494964;
 }
-p, span,ul,li{
+p, span,ul,li,label{
   color: #626275;
 }
 

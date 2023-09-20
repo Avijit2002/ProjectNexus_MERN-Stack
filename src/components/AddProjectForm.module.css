@@ -1,0 +1,78 @@
+.uploadForm {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.245);
+    height: 75vh;
+    overflow-y: scroll;
+  }
+  .uploadForm::-webkit-scrollbar {
+    display: none;
+  }
+  .uploadForm h2::after{
+    content: "";
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 4rem;
+    height: 3px;
+    background: linear-gradient(to right,rgb(28, 66, 110),#5959ac);
+    bottom: 0;
+    margin : 1rem auto;
+  }
+  .fields{
+    text-align: left;
+
+  }
+  .formGroup {
+    margin-bottom: 1rem;
+  }
+  .formGroup2 {
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .uploadForm label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: .6rem;
+  }
+  
+  .uploadForm input[type="text"],
+  .uploadForm textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .uploadForm input[type="checkbox"]{
+    width: 18px;
+  }
+  
+  .uploadForm input[type="file"] {
+    width: auto;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .uploadForm button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .uploadForm button:hover {
+    background-color: #0056b3;
+  }
+  .btn{
+    margin: 1.5rem;
+    text-align: center;
+  }
