@@ -43,7 +43,8 @@ export default function Header({post}){
     return(
       <header className={styles.header}>
         <div className={styles.logo}>
-          <h2>The Project Portal</h2>
+          {/* <h2>The Project Portal</h2> */}
+          <h2>The Academic Project and Research Hub of India (APRI)</h2>
         </div>
         <Search 
           setQuery={setQuery} 

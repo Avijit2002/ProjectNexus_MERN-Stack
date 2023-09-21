@@ -127,5 +127,8 @@ code {
   justify-content: space-between;
   gap: 1rem;
 }
+.leaderboard{
+  margin: 2rem .7rem;
+}
 
 

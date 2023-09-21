@@ -14,8 +14,8 @@ function CollegeProfile({post}) {
                 <Card>
                     <div className={styles.header}>
                         <div className={styles.title}>
-                            <h1>Techno International New Town</h1>
-                            <h3>West Bengal Kolkata</h3>
+                            <h1>DEF Institute of Technology</h1>
+                            <h3>State City</h3>
                             <div>
                                 <Link to='/' className={styles.btn}>Explore Projects</Link>
                             </div>

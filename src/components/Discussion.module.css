@@ -1,0 +1,97 @@
+
+
+.msg{
+    background-color: rgba(255, 254, 246, 0.57);
+    border-radius: 5px;
+    text-align: left;
+    margin: -1.2rem .5rem 0 .5rem;
+    padding: .5rem;
+    overflow-y: scroll;
+    height: 25vh;
+}
+.msg::-webkit-scrollbar {
+    display: none;
+  }
+.author span{
+    font-weight: 700;
+}
+.author2 span{
+    font-weight: 700;
+}
+
+.author{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    margin: 1rem 0;
+}
+.author2{
+    display: flex;
+    background-color: #efecfc;
+    gap: 10px;
+    align-items: center;
+    justify-content: start;
+    margin: 1rem 0;
+    padding: .5rem;
+    border-radius: 5px;
+}
+.author img{
+    height: 30px;
+    width: 30px;
+    margin: 0;
+}
+.author p{
+    margin: 0;
+}
+.author2 img{
+    height: 30px;
+    width: 30px;
+    margin: 0;
+}
+.author2 p{
+    margin: 0;
+    text-align: left;
+}
+.send{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: .3rem 1rem;
+}
+
+.send input{
+    width: 75%;
+    padding: 12px 24px;
+    background-color: transparent;
+    transition: transform 250ms ease-in-out;
+    font-size: 14px;
+    line-height: 18px;
+    color: #575756;
+    background-color: transparent;
+/*         background-image: url(http://mihaeltomic.com/codepen/input-search/ic_search_black_24px.svg); */
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 95% center;
+    border-radius: 50px;
+    border: 1px solid #575756;
+    transition: all 250ms ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    
+    &::placeholder {
+        color: color(#575756 a(0.8));
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+    }
+    
+    &:hover,
+    &:focus {
+        padding: 12px 0;
+        outline: 0;
+        border: 1px solid transparent;
+        border-bottom: 1px solid #575756;
+        border-radius: 0;
+        background-position: 100% center;
+    }
+}

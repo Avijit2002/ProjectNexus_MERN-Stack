@@ -4,6 +4,7 @@ import Backbtn from "../components/Backbtn"
 import styles from './ProjectDetails.module.css'
 import Button2 from "../components/Button2"
 import { useParams } from "react-router-dom"
+import Discussion from "../components/Discussion"
 
 function ProjectDetails({post}) {
     const x = useParams();
@@ -54,6 +55,7 @@ function ProjectDetails({post}) {
                     </Card>
                     <Card>
                         <h2>Discussion Forum</h2>
+                        <Discussion comments={project.comments}/>
                     </Card>
                 </div>
             </div>

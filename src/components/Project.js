@@ -18,7 +18,6 @@ export default function Project({post}){
             <hr />
             <div className={styles.main}>
                 <img src={post.image} alt="project pic" />
-                <p>{post.description}</p>
                 <div className={styles.btnBox}>
                     <Button path={`../project-details/${post.id}`}>Details</Button>
                     <Button>{post.likes} Upvotes⬆️</Button>

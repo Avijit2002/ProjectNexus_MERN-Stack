@@ -42,7 +42,9 @@ export default function StudentHomePage({post}){
             <Collaborate />
           </Card>
           <Card>
-            <Button>Leaderboard</Button>
+            <div className="leaderboard">
+              <Button>Leaderboard</Button>
+            </div>
           </Card>
         </div>
       </div>

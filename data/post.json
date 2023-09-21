@@ -3,9 +3,9 @@
         {
             "id": 1,
             "title": "Automated Greenhouse Monitoring System",
-            "description": "A system to monitor and control environmental conditions in a greenhouse.",
+            "description": "The Automated Greenhouse Monitoring System is a sophisticated solution designed to optimize agricultural practices through the integration of advanced sensor technologies and automation. By harnessing a network of environmental sensors, this system provides real-time data on crucial parameters like temperature, humidity, soil moisture levels, and light intensity within the greenhouse environment. Coupled with intelligent control algorithms, it enables precise adjustments to environmental conditions, ensuring optimal plant growth and yield. This system also incorporates remote monitoring capabilities, allowing growers to access critical information and make informed decisions from anywhere via a user-friendly interface. With the ability to remotely control climate settings and receive alerts for any deviations, this technology empowers farmers to proactively manage their greenhouse operations, leading to increased crop quality, resource efficiency, and ultimately, sustainable agricultural practices. The Automated Greenhouse Monitoring System represents a significant advancement in precision agriculture, offering a powerful tool to revolutionize greenhouse farming and contribute to a more sustainable and productive agricultural industry.",
             "author": "John Doe",
-            "university": "Techno International New Town",
+            "university": "XYZ Tech Institute",
             "category": "IoT",
             "tags": [
                 "agriculture",
@@ -17,12 +17,38 @@
                 {
                     "id": 1,
                     "author": "Jane Smith",
-                    "comment": "This is a fantastic project! Well done!"
+                    "comment": "This is a fantastic project! Well done!",
+                    "isAuthor": false
                 },
                 {
                     "id": 2,
                     "author": "Mike Johnson",
-                    "comment": "I'm interested in learning more about the sensors used."
+                    "comment": "I'm interested in learning more about the sensors used.",
+                    "isAuthor": false
+                },
+                {
+                    "id": 3,
+                    "author": "Avijit Ram",
+                    "comment": "Thank You!!!",
+                    "isAuthor": true
+                },
+                {
+                    "id": 4,
+                    "author": "Avijit Ram",
+                    "comment": "Thank You for showing intrest!!! I will definitly discuss about the sensors used.",
+                    "isAuthor": true
+                },
+                {
+                    "id": 5,
+                    "author": "Manisha Kumari",
+                    "comment": "Can you discuss about the implementation?",
+                    "isAuthor": false
+                },
+                {
+                    "id": 6,
+                    "author": "Avijit Ram",
+                    "comment": "Sure",
+                    "isAuthor": true
                 }
             ],
             "image": "https://sperotec.com/wp-content/uploads/2021/04/sensors-monitoring.png",
@@ -35,7 +61,7 @@
             "title": "E-commerce Website Redesign",
             "description": "Redesigning the user interface and adding new features to an e-commerce website.",
             "author": "Jane Smith",
-            "university": "ABC College",
+            "university": "DEF Institute of Technology",
             "category": "Web Development",
             "tags": [
                 "UI/UX",
@@ -77,8 +103,8 @@
         {
             "id": 4,
             "title": "AI-Powered Healthcare Chatbot",
-            "description": "Developing a chatbot to assist healthcare professionals in providing information to patients.",
-            "author": "Sara Johnson",
+            "description": "The project aims to develop an advanced AI chatbot system with the goal of revolutionizing customer engagement in the digital realm. Leveraging the power of cutting-edge Natural Language Processing (NLP) and Machine Learning (ML) techniques, this chatbot will serve as a dynamic interface between businesses and their customers, offering personalized, real-time support and information. The system will be designed with reinforcement learning algorithms, allowing it to learn from interactions and adapt its responses over time, ensuring that the chatbot's knowledge base is constantly evolving to stay up-to-date with changing customer needs and industry trends. The chatbot will seamlessly integrate with various communication channels such as websites, messaging platforms, and mobile apps, providing a convenient and accessible experience for users. By handling routine inquiries, the chatbot will free up human agents to focus on more complex and high-value tasks, leading to increased operational efficiency. Overall, this project on an AI chatbot represents a significant leap forward in customer engagement, offering businesses a powerful tool to enhance their digital presence and provide exceptional service to their customers.",
+            "author": "Ankit Shaw",
             "university": "PQR Medical University",
             "category": "Artificial Intelligence",
             "tags": [

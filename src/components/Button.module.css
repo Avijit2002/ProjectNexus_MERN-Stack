@@ -21,3 +21,24 @@
   .btn:hover{
     background-color: #ab93ff;
   }
+  .btnDis{
+    padding: 1rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #a2a2a2;
+    font-size: .9rem;
+    line-height: 18px;
+    border: 1px solid #a2a2a2;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    color: rgb(66, 66, 66);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    min-width: 9rem;
+    max-height: 3.5rem;
+    text-decoration: none;
+    text-align: center;
+    transition: .2s;
+  }
+ 

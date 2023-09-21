@@ -8,7 +8,7 @@ export default function Account(){
             <div className={styles.content}>
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTUxFhQ5C1Oarfng10QvkCiCnI8HTcvzj8BhqEHQrvVg&s" alt="" />
                 <h3>Avijit Ram</h3>
-                <p>3rd year btech CSE Student || Full Stack Developer || TINT'25</p>
+                <p>3rd year btech CSE Student || Full Stack Developer || B.Tech'25</p>
                 <Button2 path='/student-profile'>Profile</Button2>
 
             </div>

@@ -1,0 +1,35 @@
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.main h2::after{
+    content: "";
+    position: relative;
+    display: block;
+    text-align: center;
+    width: 4rem;
+    height: 3px;
+    background: linear-gradient(to right,rgb(28, 66, 110),#5959ac);
+    bottom: 0;
+    margin : 1rem auto;
+  }
+  .plag{
+    margin: 1rem auto;
+    display: grid;
+    gap:.8rem;
+    width: 60%;
+    text-align: center;
+  }
+  .plag h3{
+    font-style: italic;
+  }
+  .verify{
+    display: grid;
+    gap: 1rem;
+    margin: 1rem auto;
+    width: 70%;
+    text-align: center;
+  }
+  .verify h3{
+    font-style: italic;
+  }

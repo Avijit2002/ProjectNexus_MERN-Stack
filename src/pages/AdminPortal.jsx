@@ -18,14 +18,14 @@ function AdminPortal() {
                     <h3>Verify Projects</h3>
                     <div className={styles.content}>
                         <p>Verify Request Count:X</p>
-                        <Button2>List</Button2>
+                        <Button2 path="/admin-verify">List</Button2>
                     </div>
                 </Card>
                 <Card>
-                    <h3>Add Projects</h3>
+                    <h3>Add Project</h3>
                     <div className={styles.content}>
                         <p>Add Project done in this college</p>
-                        <Button2>Add</Button2>
+                        <Button2 path="/admin-add-project">Add</Button2>
                     </div>
                 </Card>
                 <Card>
